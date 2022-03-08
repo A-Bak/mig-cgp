@@ -1,0 +1,509 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+ 
+
+# Make data base, printed on Tue Mar 08 17:51:30 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VSCODE_LOG_NATIVE = false
+# makefile (from `makefile', line 7)
+TARGET := cgp_mig
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := c:/Users/adamb/Desktop/mig-cgp
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Tools\Oracle VM\
+# makefile (from `makefile', line 16)
+CFLAGS := -std=c11 -pedantic -Wno-pedantic-ms-format -Wno-unused-function -Wall -O3 -fopenmp -D NO_DLL
+# environment
+ONEDRIVE = C:\Users\adamb\OneDrive
+# environment
+GNUPLOT_LIB = C:\Tools\Text and Images\gnuplot\demo;C:\Tools\Text and Images\gnuplot\demo\games;C:\Tools\Text and Images\gnuplot\share
+# environment
+MOSQUITTO_DIR = C:\Tools\Network\mosquitto
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from `makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+TMP = C:\Users\adamb\AppData\Local\Temp
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# makefile (from `makefile', line 12)
+BUILDDIR := obj
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+CUDA_PATH_V10_1 = C:\Tools\Software Development\NVIDIA CUDA Toolkit
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-8da69897-5f6d-4bcf-b889-8e1c47d85afe-sock
+# environment
+VSCODE_CWD = C:\Tools\Software Development\Microsoft VS Code\_
+# environment
+PATH = C:\Tools\Miniconda3;C:\Tools\Miniconda3\Library\mingw-w64\bin;C:\Tools\Miniconda3\Library\usr\bin;C:\Tools\Miniconda3\Library\bin;C:\Tools\Miniconda3\Scripts;C:\Tools\Software Development\NVIDIA CUDA Toolkit\bin;C:\Tools\Software Development\NVIDIA CUDA Toolkit\libnvvp;C:\Tools\Software Development\ActiveTcl\bin;C:\Tools\Software Development\Haskell\8.6.3\lib\extralibs\bin;C:\Tools\Software Development\Haskell\8.6.3\bin;C:\ProgramData\Oracle\Java\javapath\REMOVE_THIS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;C:\Tools\Network\Putty;C:\Tools\texlive\2017\bin;C:\WINDOWS\System32\OpenSSH;C:\Books\Calibre;C:\Tools\Software Development\Haskell\8.6.3\mingw\bin;C:\Tools\Software Development\Haskell\bin;C:\Tools\Software Development\GnuWin32\bin;C:\Tools\Software Development\Python27;C:\Tools\Text and Images\gnuplot\bin;C:\Tools\Software Development\Python27\Scripts;C:\Tools\Software Development\Java SDK\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2019.4.0;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet\;C:\Tools\Software Development\Git\cmd;C:\Tools\Software Development\Python\Scripts\;C:\Tools\Software Development\Python\;C:\Users\adamb\AppData\Roaming\cabal\bin;C:\Tools\Software Development\Haskell\bin;C:\Users\adamb\AppData\Local\Microsoft\WindowsApps;C:\texlive\2017\bin\win32;C:\Program Files\MikTeX\miktex\bin\ 
+x64\;C:\Tools\Software Development\prism-4.5\bin;C:\Tools\Software Development\C\DrMemory-Windows-2.3.0-1\bin;C:\Tools\Software Development\CMake\bin;C:\Tools\Software Development\Microsoft VS Code\bin;C:\Users\adamb\.dotnet\tools;
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\adamb
+# makefile (from `makefile', line 19)
+CGP_DATA := cgp_data_creation
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives
+# environment
+NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
+# makefile (from `makefile', line 10)
+SRCDIR := src
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_10816_OLJILGFLECVSFBNZ
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = DESKTOP-50RR8O5
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+NVCUDASAMPLES_ROOT = C:\Tools\Software Development\NVIDIA CUDA Samples
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = adamb
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\adamb\AppData\Roaming\Code\CachedData\b3318bc0524af3d74034b8bb8a64df0ccf35549a
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\DESKTOP-50RR8O5
+# environment
+ONEDRIVECONSUMER = C:\Users\adamb\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# makefile (from `makefile', line 20)
+COMB_CIRC := combination_circuits
+# environment
+USERDOMAIN = DESKTOP-50RR8O5
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from `makefile', line 4)
+CC = gcc
+# default
+MAKE_VERSION := 3.81
+# makefile
+.DEFAULT_GOAL := all
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# makefile (from `makefile', line 13)
+TARGETDIR := bin
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+STACK_ROOT = C:\sr
+# environment
+LOCALAPPDATA = C:\Users\adamb\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile (from `makefile', line 11)
+LIBDIR := lib
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\11e7c1fc706edf9639b2c8b317d543a9-1.62.0-main-sock
+# environment
+HOMEPATH = \Users\adamb
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\adamb\AppData\Roaming
+# environment
+TEMP = C:\Users\adamb\AppData\Local\Temp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# makefile (from `makefile', line 18)
+CGP_LIB := lib/cgp_lib
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+NVCUDASAMPLES10_1_ROOT = C:\Tools\Software Development\NVIDIA CUDA Samples
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# environment
+CUDA_PATH = C:\Tools\Software Development\NVIDIA CUDA Toolkit
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 3c03
+# environment
+VS140COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 10816
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-50RR8O5
+# variable set hash-table stats:
+# Load=109/1024=11%, Rehash=0, Collisions=9/171=5%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# C:\ProgramData\Oracle\Java\javapath\REMOVE_THIS: could not be stat'd.
+# C:\Tools\Software Development\Java SDK\bin (key C:/Tools/Software Development/Java SDK/bin, mtime 1550079186): 56 files, no impossibilities.
+# C:\Tools\Software Development\Python\Scripts\ (key C:/Tools/Software Development/Python/Scripts/, mtime 1619169927): 61 files, no impossibilities.
+# C:\Program Files\NVIDIA Corporation\Nsight Compute 2019.4.0 (key C:/Program Files/NVIDIA Corporation/Nsight Compute 2019.4.0, mtime 1571597530): 10 files, no impossibilities.
+# C:\Tools\Software Development\Haskell\8.6.3\mingw\bin (key C:/Tools/Software Development/Haskell/8.6.3/mingw/bin, mtime 1550079614): 57 files, no impossibilities.
+# C:\WINDOWS\System32\Wbem (key C:/WINDOWS/System32/Wbem, mtime 1644596029): 155 files, no impossibilities.
+# . (key c:/Users/adamb/Desktop/mig-cgp, mtime 1646758285): 12 files, no impossibilities.
+# C:\Tools\Software Development\GnuWin32\bin (key C:/Tools/Software Development/GnuWin32/bin, mtime 1550157834): 5 files, no impossibilities.
+# C:\Tools\Software Development\NVIDIA CUDA Toolkit\bin (key C:/Tools/Software Development/NVIDIA CUDA Toolkit/bin, mtime 1571597962): 45 files, no impossibilities.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1571597784): 10 files, no impossibilities.
+# C:\Tools\Text and Images\gnuplot\bin (key C:/Tools/Text and Images/gnuplot/bin, mtime 1550669626): 65 files, no impossibilities.
+# C:\Books\Calibre (key C:/Books/Calibre, mtime 1542381325): 24 files, no impossibilities.
+# C:\Tools\Software Development\Git\cmd (key C:/Tools/Software Development/Git/cmd, mtime 1644407838): 8 files, no impossibilities.
+# C:\Tools\Miniconda3 (key C:/Tools/Miniconda3, mtime 1637675445): 83 files, no impossibilities.
+# C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1637064333): 13 files, no impossibilities.
+# C:\Tools\Network\Putty (key C:/Tools/Network/Putty, mtime 1550078584): 12 files, no impossibilities.
+# C:\Users\adamb\AppData\Roaming\cabal\bin: could not be stat'd.
+# C:\Tools\Software Development\C\DrMemory-Windows-2.3.0-1\bin (key C:/Tools/Software Development/C/DrMemory-Windows-2.3.0-1/bin, mtime 1580965892): 28 files 
+, no impossibilities.
+# C:\Users\adamb\.dotnet\tools: could not be stat'd.
+# C:\Tools\Software Development\ActiveTcl\bin (key C:/Tools/Software Development/ActiveTcl/bin, mtime 1550421747): 21 files, no impossibilities.
+# C:\Program Files\dotnet (key C:/Program Files/dotnet, mtime 1637064333): 13 files, no impossibilities.
+# C:\Tools\Software Development\prism-4.5\bin (key C:/Tools/Software Development/prism-4.5/bin, mtime 1589702417): 8 files, no impossibilities.
+# C:\Tools\Miniconda3\Library\usr\bin: coul 
+d not be stat'd.
+# C:\Tools\Software Development\Python27 (key C:/Tools/Software Development/Python27, mtime 1550668938): 15 files, no impossibilities.
+# C:\WINDOWS\System32\OpenSSH: could not be stat'd.
+# C:\Tools\Miniconda3\Library\bin (key C:/Tools/Miniconda3/Library/bin, mtime 1637675419): 439 files, no impossibilities.
+# C:\WINDOWS (key C:/WINDOWS, mtime 1644596027): 121 files, no impossibilities.
+# C:\Tools\Miniconda3\Scripts (key C:/Tools/Miniconda3/Scripts, mtime 1646733297): 69 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\130\Tools\Binn (key C:/Program Files/Microsoft SQL Server/130/Tools/Binn, mtime 1493383565): 4 files, no impossibilities.
+# C:\Tools\Software Development\CMake\bin (key C:/Tools/Software Development/CMake/bin, mtime 1618763678): 7 files, no impossibilities.
+# C:\texlive\2017\bin\win32: could not be stat'd.
+# C:\Users\adamb\AppData\Local\Microsoft\WindowsApps (key C:/Users/adamb/AppData/Local/Microsoft/WindowsApps, mtime 1646127590): 5 files, no impossibilities.
+# C:\Tools\Miniconda3\Library\mingw-w64\bin: could not be stat'd.
+# C:\Tools\Software Development\Haskell\8.6.3\bin (key C:/Tools/Software Development/Haskell/8.6.3/bin, mtime 1550079511): 17 files, no impossibilities.
+# C:\Tools\Software Development\Haskell\8.6.3\lib\extralibs\bin (key C:/Tools/Software Development/Haskell/8.6.3/lib/extralibs/bin, mtime 1550079600): 6 files, no impossibilities.
+# C:\Tools\Software Development\Haskell\bin (key C:/Tools/Software Development/Haskell/bin, mtime 1591471108): 5 
+ files, no impossibilities.
+# C:\Program Files\MikTeX\miktex\bin\x64\ (key C:/Program Files/MikTeX/miktex/bin/x64/, mtime 1508325875): 567 files, no impossibilities.
+# C:\Tools\texlive\2017\bin: could not be stat'd.
+# C:\Tools\Software Development\Python27\Scripts (key C:/Tools/Software Development/Python27/Scripts, mtime 1605430589): 8 files, no impossibilities.
+# C:\WINDOWS\system32 (key C:/WINDOWS/system32, mtime 1646728593): 3111 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\120\Tools\Binn (key C:/Program Files/Microsoft SQL Server/120/Tools/Binn, mtime 1493471293): 4 files, no impossibilities.
+# C:\Tools\Software Development\NVIDIA CUDA Toolkit\libnvvp (key C:/Tools/Software Development/NVIDIA CUDA Toolkit/libnvvp, mtime 1571597840): 14 files, no impossibilities.
+# C:\Tools\Software Development\Python\ (key C:/Tools/Software Development/Python/, mtime 1581434482): 29 files, no impossibilities.
+# C:\Tools\Software Development\Microsoft VS Code\bin: could not be stat'd.
+# C:\Program Fi 
+les\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1571597986): 5 files, no impossibilities.
+# C:\WINDOWS\System32\WindowsPowerShell\v1.0 (key C:/WINDOWS/System32/WindowsPowerShell/v1.0, mtime 1603673803): 30 files, no impossibilities.
+
+# 5142 files, no impossibilities in 46 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+src/combination_circuits.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+ 
+#  File has not been updated.
+
+bin/cgp_mig.exe: obj/cgp_mig.o obj/cgp_lib.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 35):
+	$(CC) $(CFLAGS) $^ -o $@
+	
+
+obj/cgp_mig.o: src/cgp_mig.c src/cgp_mig.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 46):
+	$(CC) $(CFLAGS) -c $< -o $@
+	
+
+all: clean linking subdirs
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/4=0%
+
+# Not a target:
+lib/cgp_lib/cgp.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/combination_circuits.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: subdirs clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/cgp_data_creation.exe: obj/cgp_data_creation.o obj/cgp_lib.o obj/combination_circuits.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 39):
+	$(CC) $(CFLAGS) $^ -o $@
+	
+
+obj/cgp_data_creation.o: src/cgp_data_creation.c src/cgp_data_creation.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 54):
+	$(CC) $(CFLAGS) -c $< -o $@
+	
+
+# Not a target:
+src/cgp_mig.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-04-28 20:45:49
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+linking: bin/cgp_mig.exe
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/cgp_mig.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/cgp_data_creation.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/cgp_data_creation.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+run: linking
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 29):
+	@./$(TARGETDIR)/$(TARGET).exe
+	
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := clean
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/12=8%
+#  commands to execute (from `makefile', line 69):
+	-@del /q /s $(TARGETDIR)
+	-@del /q /s $(BUILDDIR)
+	
+
+obj/combination_circuits.o: src/combination_circuits.c src/combination_circuits.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 58):
+	$(CC) $(CFLAGS) -c $< -o $@
+	
+
+obj/cgp_lib.o: lib/cgp_lib/cgp.c lib/cgp_lib/cgp.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 50):
+	$(CC) $(CFLAGS) -c $< -o $@
+	
+
+# Not a target:
+lib/cgp_lib/cgp.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+dataset: bin/cgp_data_creation.exe
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	@./$<
+	
+
+subdirs:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 66):
+	-@mkdir $(TARGETDIR) $(BUILDDIR) || : 
+	
+
+# files hash-table stats:
+# Load=24/1024=2%, Rehash=0, Collisions=1/58=2%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Tue Mar 08 17:51:30 2022
+
+ 
